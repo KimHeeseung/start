@@ -16,11 +16,11 @@ import java.util.*;
 public class ex02 {
 	public static void main(String[] args) {
 			Scanner sc = new Scanner(System.in);
-			double radius;
-			System.out.print("원의 반지름");
-			radius = sc.nextDouble();
-			System.out.print("원의 둘레 : " + ( 2 * 3.14 * radius));
-			System.out.print("원의 넓이 : " + ( 3.14 * radius * radius));	
+			double rad;
+			System.out.print(" 원의 반지름 : ");
+			rad = sc.nextDouble();
+			System.out.println(" 원의 둘레 : " + ( 2 * 3.14 * rad));
+			System.out.println(" 원의 넓이 : " + ( 3.14 * rad * rad));	
 	}
 
 }
