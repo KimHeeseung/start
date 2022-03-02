@@ -20,7 +20,8 @@ public class EX03 {
 		int snum = num.length(); 
 		
 		System.out.println("문자열의 길이는 : " + num.length());
-		for (int i = 0; i < num.length(); i++) {
+		for (int i = 0; i < snum; i++) {
+					
 		      System.out.println( num.charAt(i) );
 		    }
 			

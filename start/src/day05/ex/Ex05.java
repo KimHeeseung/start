@@ -15,6 +15,7 @@ import java.util.*;
 public class Ex05 {
 
 	public static void main(String[] args) {
+		while(true) {
         Scanner sc = new Scanner(System.in);
         System.out.println(" 1.가위 2.바위 3.보 ");
         System.out.print("숫자을 입력하세요 :");
@@ -30,12 +31,14 @@ public class Ex05 {
         if(user == 1) {
                if(com == 2) {
                       System.out.println("승리");
+                      break;
                }
                else if(com == 3) {
                       System.out.println("패배");
                }
                else {
                       System.out.println("무승부");
+                      
                }
         }
         else if(user == 2) {
@@ -44,6 +47,7 @@ public class Ex05 {
                }
                else if(com == 3) {
                       System.out.println("승리");
+                      break;
                }
                else {
                       System.out.println("패배");
@@ -58,7 +62,12 @@ public class Ex05 {
                }
                else {
                       System.out.println("승리");
+                      break;
+                     
                }
+               
         }
-  }
+        System.out.println("게임이 종료되었습니다.");
+		}
+	}
 }

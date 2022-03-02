@@ -8,12 +8,21 @@ package day05.ex;
 public class ex02 {
 	public static void main(String[] args) {
 		
-		for(char a = 'A'; a <= 'J'; a++) {
-
-			
-			System.out.print(a);
+		for(int i = 0 ; i < 10 ; i++) {
+			char ch = (char)(Math.random() * ('Z' - 'A' +1) +'A');
+					
+			System.out.print(ch + " ");
 		}
+		System.out.println();
 		
+		
+		int i = 0;
+		for (i = 0 ; i < 10; i++) {
+			char ch = 'A';
+			System.out.print((char)(ch+i) + " ");
+		}
+		System.out.println();
+		System.out.print("### i : " + i);
 	}
 
 }

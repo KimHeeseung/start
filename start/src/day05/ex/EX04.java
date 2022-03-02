@@ -26,16 +26,20 @@ public class EX04 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("사용자 코드 입력 : ");
+		while(true) {
+		System.out.print("* 사용자 코드를 입력하세요! \n\t가정용\t1\n\t산업용\t2\n\t교육용\t3\n\t상업용\t4\n사용자 코드 : ");
 		int code = sc.nextInt();
 		System.out.print("사용량 입력 : ");
 		int e = sc.nextInt(); // 사용량
 		
-		int gibon = 0; // 기본요금
+		double gibon = 0; // 기본요금
 		
-		int use = 0; // 사용요금
+		double use = 0; // 사용요금
 		
-		double wjsrl=0; //전기 사용요금
+		double wjsrl = gibon + use * (e); //전기 사용량
+		if(e == 0) {
+			System.out.println("프로그램을 종료합니다.");
+		}
 		
 		switch(code){
 		case 1 :
@@ -57,7 +61,9 @@ public class EX04 {
 		 default:
 			 break;
 		}
-		wjsrl = gibon + use * e;
+		wjsrl = gibon + use * (e);
 	     System.out.println("전기요금: "+wjsrl +" 원");     
+	}
+
 	}
 }

@@ -4,7 +4,7 @@ public class Ex01 {
 	public static void main(String[] args) {
 		//결과값 변수 만들고
 		
-		int[] num = {1,2,3,4,5,6,7,8,9,10}; //1~ 6까지 관리하는 정수배열 
+		int[] num = {1,2,3,4,5,6,7,8}; //1~ 6까지 관리하는 정수배열 
 		int hap = 0;
 		// 반복해서 누적 대입하고
 		for(int i = 0 ; i < 10; i++ ) {
