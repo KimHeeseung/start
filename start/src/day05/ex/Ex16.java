@@ -19,7 +19,21 @@ package day05.ex;
 public class Ex16 {
 
 	public static void main(String[] args) {
-		
+		for(int i = 0 ; i < 2 ; i++) {
+			
+			for(int j = 0 ; j <9; j++) {
+				
+				for(int k = 0 ; k < 5 ; k++) {
+					int dan = 2 * k + 2 + i;
+					int gop = j + 1;
+					
+					//출력
+					System.out.print(dan + " x " + gop + " = " + (dan * gop) + "\t");
+				}
+				System.out.println();
+			}
+			System.out.println();
+		}
 	}
 
 }
