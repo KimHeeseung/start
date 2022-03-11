@@ -8,17 +8,12 @@ public class Test04 {
 		int[] subj = new int[5];
 		
 		for(int i = 0 ; i < subj.length; i ++) {
-			//랜덤하게 만든 점수를 각 과목방에 입력한다.
-			
-			/*
-			 
+			//랜덤하게 만든 점수를 각 과목방에 입력한다.	
+			/*	 
 			 *int score = (int)(Math.random() * (100-60+1) +60); 
 			 같다 두개가
 			 * subj[i] = score;
 			 */
-			
-			
-			
 			subj[i] = (int)(Math.random() * (100-60+1) +60); //60~ 100사이의 정수
 		}
 		//총점 계산

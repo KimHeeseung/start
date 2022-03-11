@@ -59,6 +59,7 @@ public class Test01 {
 		blackpink[2] = "로제";
 		blackpink[3] = "지수";
 		//출력 내용확인용
+		
 		System.out.println(Arrays.toString(blackpink));
 		
 		//데이터를 하나씩 꺼내서 출력
@@ -92,5 +93,5 @@ public class Test01 {
 		
 			}
 
-
+	
 	}
