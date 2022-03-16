@@ -1,5 +1,8 @@
 package day12.sub;
 
+import day12.sub.*;
+
+
 public interface Figure {
 //	int area = 10; // 변수를 선언하면 자동적으로 이 변수는 static final 변수가 되므로 초기화도 해줘야 한다.
 	void setArea();
